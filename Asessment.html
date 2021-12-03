@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>Assesment</title>
+    <style type="text/css">
+    
+     /*Asessment background card */
+    #ui{
+        background-color: rgb(26, 22, 22);
+        padding: 30px;
+        margin-top: 50px;
+        border-radius: 10px;
+    
+    }
+    #ui label{
+        font-family: Verdana, sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        font-size: large;
+        color:rgb(255, 255, 255) 
+    }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="bg">
+    <!--Navigation  -->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top mynav">
+        <div class="container-fluid">
+    
+            <a class="nav-item nav-link" href="#"><img src="./Images/NorthernTesolLogo.jpg" class="logo"></i><span class="navbar-text"></span></a>
+            
+            <a href="#" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-menu"><i class="navbar-toggler-icon"></i></a>
+    
+            <div class="navbar-collapse collapse" id="navbar-menu">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="./index.html">Home</a>
+    
+                    <div class="dropdown">
+                    <a class="nav-item nav-link" href="/Plans.html">Plans</a>
+                        </div>
+                    <div class="dropdown">
+                     <a class="nav-item nav-link" href="./Payment.html">Pricing</a>
+                        </div>
+                
+                         <div class="dropdown">
+                         <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" href="./Teachers.html">Teachers</a>
+                         <div class="dropdown-menu">
+                                    <h5 class="dropdown-header">Teachers</h5>
+                                    <a href="projectAnchor" class="dropdown-item small"><i class="fas fa-chalkboard-teacher"></i> Claudia</a> 
+                                    <a href="projectAnchor" class="dropdown-item small"><i class="fas fa-chalkboard-teacher"></i> Richard</a>
+                                    <div class="dropdown-divider"></div>
+                                    </div>
+                                    </div>
+    
+                                <a class="nav-item nav-link" href="#contactus"><i class="far fa-envelope-open"></i> Contact Us</a>
+             </div>
+          </div>       
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+      <div class="bg">
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-3">
+        </div>
+
+        <div class="col-lg-6">
+        <div id="ui">
+
+<form class="form-group text-center" action="https://formsubmit.co/RichardGAFehr@hotmail.com" method="POST">
+    <p class="ap"> Please fill out the ifnromation below so we can better assess your background with the language. Knowing this can allow us to better serve you</p>
+    <div class="row">
+        <div class="col-lg-6">
+         <label>First Name:</label>
+            <input type="text" name="fname" class="form-control" placeholder=" Enter your first name">
+            </div>
+
+            <div class="col-lg-6">
+                <label>Last Name:</label>
+                   <input type="text" name="lname" class="form-control" placeholder="Enter your last name">
+                   </div>
+             </div>
+             <br>
+             <label>E-mail</label>
+             <input type="email" name="email" class="form-control" placeholder="Enter your e-mail">
+             <br>
+             <div class="row">
+                <div class="col-lg-6">
+               <!---- uncomment if we want password access <label>Password:</label>
+                   <input type="password" name="fname" class="form-control" placeholder=" Enter  a password">
+               -->
+                    </div> 
+                <div class="col-lg-6">
+                      <!---    <label>Re-type Password:</label>
+                          <input type="password" name="lname" class="form-control" placeholder="Re-enter your password">
+                      -->
+                        </div> 
+                    </div> 
+                    <br>
+                    <label>Area Of English:</label>
+             <select class="form-control">
+                 <option>Business English</option>
+                 <option>Childrens English</option>
+                 <option>Adult</option>
+             </select>
+             <br>
+             <label>Size of Group:</label>
+             <select class="form-control">
+                <option>1 on 1</option>
+                <option>Pairs</option>
+                <option>Group</option>
+            </select>
+            <br>
+
+            <label>Your Current Level:</label>
+             <select class="form-control">
+                <option>Beginner</option>
+                <option>Intermediate</option>
+                <option>Advanced</option>
+            </select>
+            <br>
+
+            <div class="form-group">
+                <label>Your Experience</label>
+                <textarea class="form-control" rows="5"></textarea>
+            </div>
+            <div class="form-group">
+                <label>Your Goals</label>
+                <textarea class="form-control" rows="5"></textarea>
+            </div>
+             <input id="asbtn" type="submit" name="submit" value="Submit" class="btn btn-primary btn-block btn-lg">
+            
+             <br>
+    </form>
+</div>
+</div>
+</div>
+<div class="col-lg-3"></div>
+</div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   </body>
+</html>
